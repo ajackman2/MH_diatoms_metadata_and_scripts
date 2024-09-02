@@ -1,0 +1,11 @@
+well_under_represented,Genus,num_ref_seq,avg_r_mismatches
+high_illumina,Navicula,95,0.4
+high_illumina,Cylindrotheca,31,1.4
+high_illumina,Nitzschia,182,0.4
+high_illumina,Pseudogomphonema,1,1
+high_illumina,Minidiscus,1,0
+under_represented,Cocconeis,12,1
+under_represented,Tabularia,3,0
+under_represented,Gomphonemopsis,2,1
+under_represented,Planothidium,19,1
+under_represented,Halamphora,72,1

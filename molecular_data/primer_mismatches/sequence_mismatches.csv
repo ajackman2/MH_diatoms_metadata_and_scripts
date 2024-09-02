@@ -1,0 +1,11 @@
+Genus,avg_mismatches,num_unique_asv,num_diat_barcodes,category
+Navicula,1.5,197,218,high_illumina
+Cylindrotheca,2.1,11,73,high_illumina
+Nitzschia,3.6,74,399,high_illumina
+Pseudogomphonema,0.9,8,2,high_illumina
+Minidiscus,2.3,3,3,high_illumina
+Cocconeis,3.5,2,18,under_represented
+Tabularia,4.1,5,4,under_represented
+Gomphonemopsis,4.4,2,2,under_represented
+Planothidium,5.1,2,44,under_represented
+Halamphora,3.6,11,98,under_represented

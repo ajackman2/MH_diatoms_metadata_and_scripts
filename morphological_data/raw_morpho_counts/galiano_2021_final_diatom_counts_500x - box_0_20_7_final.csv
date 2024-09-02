@@ -1,0 +1,100 @@
+image_num,folder,file_name,box,blade_position,grid_position,under_review,suggested_id,cocconeis_small,cocconeis_big,navicula,tabularia,cylindrotheca,pseudo_nitzschia,gomphonemopsis,hyalodiscus,coscinodiscus,plagiotropis,nitzschia,rhoicosphenia,pseudogonphonema,thalassiosira,eucampia,chaetoceros,diploneis,entomoneis,pariraphis_like,planothidium,halamphora,achnanthes,amphora,petroneis,bacillaria,ellerbeckia,minidiscus,fragilariopsis,rhizosolenia,fogedia,skeletonema,pleurosigma,gomphoseptatum,licmophora,total
+1,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_03(x500)						,0_20_7,medial,A1,,,12,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,12
+1,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_03(x500)						,0_20_7,medial,B1,,,12,,,10,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,22
+1,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_03(x500)						,0_20_7,medial,C1,,,12,,,,,,,,,,,,,,,,,,1,,,,,,,,0,,,,,,,,13
+1,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_03(x500)						,0_20_7,medial,A2,,,12,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,12
+1,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_03(x500)						,0_20_7,medial,B2,,,12,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,12
+1,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_03(x500)						,0_20_7,medial,C2,,,12,,,,,,,,,,,,,,,,,,1,,,,,,,,1,,,,,,,,14
+1,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_03(x500)						,0_20_7,medial,A3,,,12,,,,,,,,,,,,,,,,,,,1,,,,,,,3,,,,,,,,16
+1,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_03(x500)						,0_20_7,medial,B3,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,10
+1,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_03(x500)						,0_20_7,medial,C3,,,14,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,14
+2,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_04(x500),0_20_7,medial,A1,,,12,1,1,,,,,,,,,1,,,,,,,,,,,,,,,0,,,,,,,,15
+2,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_04(x500),0_20_7,medial,B1,,,7,1,,5,2,,,,,,,,,1,,,,,,,,,,,,,0,,,,,,,,16
+2,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_04(x500),0_20_7,medial,C1,,,10,,1,6,1,,,,,1,,,,,,,,,,1,,,,,,,0,,,,,,,,20
+2,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_04(x500),0_20_7,medial,A2,,,11,,1,2,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,14
+2,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_04(x500),0_20_7,medial,B2,,,8,,2,4,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,14
+2,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_04(x500),0_20_7,medial,C2,,,11,,2,,,,,,,,,,,,,,,,,3,,,,,,,0,,,,,,,,16
+2,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_04(x500),0_20_7,medial,A3,,,7,1,,2,,,,,,,,,,,,,,,,,1,,,,,,0,,,,,,,,11
+2,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_04(x500),0_20_7,medial,B3,,,10,,1,3,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,14
+2,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_04(x500),0_20_7,medial,C3,,,12,,3,14,1,,,,,,,,,,,,,,,1,,,,,,,0,,,,,,,,31
+3,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_05(x500),0_20_7,medial,A1,,,12,1,,12,1,,,,,,,,2,,,,,,,,,1,,,,,0,,,,,,,,29
+3,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_05(x500),0_20_7,medial,B1,,,10,,2,31,,,,,,1,,,1,,,,,,,,,,,,,,0,,,,,,,,45
+3,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_05(x500),0_20_7,medial,C1,,,8,,,16,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,24
+3,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_05(x500),0_20_7,medial,A2,,,7,1,2,25,,,,,,,,,1,,,,,,,,,,,,,,0,,,,,,,,36
+3,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_05(x500),0_20_7,medial,B2,,,12,,2,18,,,2,,,,,,,,,,,,,,,,,,,,0,,,,,,,,34
+3,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_05(x500),0_20_7,medial,C2,,,11,,1,9,,,,,,,,,,,,,,,,,,1,,,,,0,,,,,,,,22
+3,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_05(x500),0_20_7,medial,A3,1,pseudogomphonema,15,,1,14,,,,,,,,,,,,,,,1,1,,,,,,,0,,,,,,,,32
+3,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_05(x500),0_20_7,medial,B3,,,12,,1,11,,,,,,,,,,,,,,,2,,,,,,,,0,,,,,,,,26
+3,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_05(x500),0_20_7,medial,C3,,,11,,,12,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,23
+4,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_06(x500),0_20_7,medial,A1,,,8,,,4,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,12
+4,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_06(x500),0_20_7,medial,B1,,,7,,,10,,,,,,1,,,4,2,,,,,,,,1,,,,,0,,,,,,,,25
+4,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_06(x500),0_20_7,medial,C1,,,8,,,11,,,,,,1,,,1,,,,,,,,,,,,,,0,,,,,,,,21
+4,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_06(x500),0_20_7,medial,A2,,,16,,,15,,,,,,1,,,1,,,,,,,,,,,,,,0,,,,,,,,33
+4,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_06(x500),0_20_7,medial,B2,,,10,1,,20,,,,,,,,,,,,,,,,1,,,,,,,0,,,,,,,,32
+4,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_06(x500),0_20_7,medial,C2,,,10,,,3,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,13
+4,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_06(x500),0_20_7,medial,A3,,,8,,3,11,,,,,,1,,,3,,,,,,,,,1,,,,,0,,,,,,,,27
+4,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_06(x500),0_20_7,medial,B3,,,9,,2,18,,,,,,2,,,2,,,,,,,,,1,,,,,0,,,,,,,,34
+4,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_06(x500),0_20_7,medial,C3,,,11,,,13,,,,,,2,,,,,,,,,,,,,,,,,0,,,,,,,,26
+5,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_07(x500),0_20_7,medial,A1,,,8,,,39,,,,,,1,,,,,,,,,,,,,,,,,0,,,,,,,,48
+5,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_07(x500),0_20_7,medial,B1,,,7,,,47,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,54
+5,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_07(x500),0_20_7,medial,C1,,,8,,,38,,,,,,1,1,,,,,,,,,,,,,,,,0,,,,,,,,48
+5,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_07(x500),0_20_7,medial,A2,,,7,,,47,,,,,,1,,,1,,,,,,,,,1,,,,,0,,,,,,,,57
+5,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_07(x500),0_20_7,medial,B2,,,4,,,31,,,,,,,2,,1,,,,,,,,,,,,,,0,,,,,,,,38
+5,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_07(x500),0_20_7,medial,C2,,,2,,2,23,,,,,,3,5,,,,,,,,,,,1,,,,,0,,,,,,,,36
+5,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_07(x500),0_20_7,medial,A3,,,4,1,,47,,,,,,,,,3,,,,,,,,,,,,,,0,,,,,,,,55
+5,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_07(x500),0_20_7,medial,B3,,,8,,2,37,,,,,,1,,,2,,,,,,,,,,,,,,0,,,,,,,,50
+5,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_07(x500),0_20_7,medial,C3,,,7,1,,38,,,,,,,1,,2,,,,,,,,,,,,,,0,,,,,,,,49
+6,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_08(x500),0_20_7,medial,A1,,,19,,1,12,,,,,,,1,,,,,,,,,,,,,,,,0,1,,,,,,,33
+6,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_08(x500),0_20_7,medial,B1,,,14,,,6,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,20
+6,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_08(x500),0_20_7,medial,C1,,,16,,2,5,1,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,24
+6,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_08(x500),0_20_7,medial,A2,,,17,,,14,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,31
+6,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_08(x500),0_20_7,medial,B2,,,15,,2,4,,,,,,,1,,,,,,,,,,,,,,,,0,,,,,,,,22
+6,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_08(x500),0_20_7,medial,C2,,,13,1,,6,,,,,,,,,1,,,,,,,,,,,,,,0,1,,,,,,,21
+6,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_08(x500),0_20_7,medial,A3,,,17,,,20,1,,,,,3,,,,,,,,,,,,,,,,,0,,,,,,,,41
+6,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_08(x500),0_20_7,medial,B3,,,12,,4,10,,,,,,2,3,,,,,,,,,,,,,,,,0,,,,,,,,31
+6,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_08(x500),0_20_7,medial,C3,,,14,,3,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,17
+7,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_10(x500),0_20_7,medial,A1,,,11,,2,23,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,36
+7,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_10(x500),0_20_7,medial,B1,,,12,,1,24,1,,,,,,,,,,,,,,,2,,,1,,,,0,,,,,,,,41
+7,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_10(x500),0_20_7,medial,C1,,,12,,1,45,1,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,59
+7,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_10(x500),0_20_7,medial,A2,,,11,,1,33,,,,,,,,,,,,,,,,,,,3,,,,0,6,,,,,,,48
+7,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_10(x500),0_20_7,medial,B2,,,15,,,9,,,,,,,1,,,,,,,,,,,,,,,,0,6,,,,,,,25
+7,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_10(x500),0_20_7,medial,C2,,,14,,,19,1,,,,,,,,,,,,,,,1,,,,,,,0,,,,,,,,35
+7,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_10(x500),0_20_7,medial,A3,,,14,,,14,2,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,30
+7,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_10(x500),0_20_7,medial,B3,1,,16,,,11,,,,,,,,,,,,,,,,,,,1,,,,0,1,,,,,,,28
+7,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_10(x500),0_20_7,medial,C3,,,19,,,22,,,,,,,,,,,,,,,,5,,,,,,,0,,,,,,,,46
+8,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_11(x500),0_20_7,medial,A1,,,14,,,6,,,,,,,,,,,,,,,,,,,1,,,,2,,,,,,,,23
+8,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_11(x500),0_20_7,medial,B1,,,9,1,1,20,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,31
+8,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_11(x500),0_20_7,medial,C1,,,12,,1,11,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,24
+8,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_11(x500),0_20_7,medial,A2,,,13,,,9,2,,,,,,,,,,,,,,,,,,,,,,0,1,,,,,,,24
+8,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_11(x500),0_20_7,medial,B2,,,11,,,13,1,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,25
+8,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_11(x500),0_20_7,medial,C2,,,9,,,13,,,,,,,1,,,,,,,,2,,,,,,,,0,7,,,1,,,,25
+8,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_11(x500),0_20_7,medial,A3,,,12,,,11,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,23
+8,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_11(x500),0_20_7,medial,B3,,,9,,2,52,1,,,,,,,,1,,,,,,,,,,,,,,0,,,,,,,,65
+8,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_11(x500),0_20_7,medial,C3,,,11,,1,28,1,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,41
+9,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_12(x500),0_20_7,medial,A1,,,14,,,12,,,,,,,,2,,,,,,,,,,,,,,,0,,,,,,,,28
+9,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_12(x500),0_20_7,medial,B1,,,9,,,9,,,,,,,,6,,,,,,,,,,,,,,,0,,,,,,,,24
+9,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_12(x500),0_20_7,medial,C1,,,16,,,8,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,24
+9,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_12(x500),0_20_7,medial,A2,,,11,,,26,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,37
+9,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_12(x500),0_20_7,medial,B2,,,15,1,,4,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,20
+9,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_12(x500),0_20_7,medial,C2,,,18,,,13,1,,,,,,,,,,,,,,1,,,,,,,,0,,,,,,,,33
+9,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_12(x500),0_20_7,medial,A3,,,13,,,8,,,,,,,,4,,,,,,,,1,,,,,1,,0,,,,,,,,27
+9,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_12(x500),0_20_7,medial,B3,,,14,,2,6,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,22
+9,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_12(x500),0_20_7,medial,C3,,,16,,,3,3,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,22
+10,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_14(x500),0_20_7,medial,A1,,,7,,,6,,,,,,1,,,,,,,,,,,,,,,,,0,,,,,,,,14
+10,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_14(x500),0_20_7,medial,B1,,,16,,2,5,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,23
+10,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_14(x500),0_20_7,medial,C1,,,14,,,5,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,19
+10,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_14(x500),0_20_7,medial,A2,,,8,1,,4,,,,,,1,,,,,,,,,,,,,,,,,0,,,,,,,,14
+10,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_14(x500),0_20_7,medial,B2,,,13,,,1,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,16
+10,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_14(x500),0_20_7,medial,C2,,,14,,,3,,,,,,1,,,,,,,,,,,,,,,,,0,,,,,,,,18
+10,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_14(x500),0_20_7,medial,A3,,,5,,,2,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,7
+10,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_14(x500),0_20_7,medial,B3,,,9,1,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,10
+10,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_14(x500),0_20_7,medial,C3,,,10,,,4,,,1,,,,,,,,,,,,,,,,,,,,0,,,,,,,,15
+11,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_15(x500),0_20_7,medial,A1,,,15,,1,16,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,32
+11,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_15(x500),0_20_7,medial,B1,,,15,1,1,19,,,,,,,,1,,,,,,,,,,,,,,,0,,,,,,,,37
+11,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_15(x500),0_20_7,medial,C1,,,12,,,21,,,,,,,,5,,,,,,,,,,,,,,,0,,,,,,,,38
+11,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_15(x500),0_20_7,medial,A2,,,8,,1,15,,,,,,,,,7,1,,,,,,,,,,,,,0,,,,1,,,,32
+11,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_15(x500),0_20_7,medial,B2,,,13,,1,13,,,,,,,,2,,,,,,,,1,,,,,,,0,,,,,,,,30
+11,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_15(x500),0_20_7,medial,C2,,,13,,3,21,3,,,,,,,1,,,,,,,,,,,,,,,0,2,,,,,,,41
+11,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_15(x500),0_20_7,medial,A3,,,12,,3,8,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,23
+11,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_15(x500),0_20_7,medial,B3,,,11,,,20,,,,,,,,2,,,,,,,,,,,,,,,0,,,,,,,,33
+11,eelgrass_images_counted,Box 0 Mar 7-2021-stb20 7Ma (500x) MW (July 11-2023)_15(x500),0_20_7,medial,C3,,,9,1,,,1,,,,,1,,,,,,,,,,,,,,,,,0,,,,,,,,12
