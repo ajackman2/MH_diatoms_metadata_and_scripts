@@ -1,0 +1,12 @@
+QueryName	QueryLength	TemplateName	TemplateLength	SearchMethod	SearchScore	AlignmentMethod	QueryStart	QueryEnd	TemplateStart	TemplateEnd	PairwiseAlignmentLength	GapsInQuery	GapsInTemplate	LongestInsert	SimBtwnQuery&Template	
+asv123_Amphora_abludens	263	KJ463455|rbcl	1288	kmer	84.37	needleman	1	263	628	890	263	0	0	0	97.71
+asv306_Thalassiophysales	288	MG027424|rbcl	1287	kmer	72.59	needleman	1	288	612	899	288	0	0	0	95.83
+asv337_Amphora_helenensis	263	KT943671|rbcl	1250	kmer	88.28	needleman	1	263	628	890	263	0	0	0	98.09
+asv372_Halamphora	263	MG027424|rbcl	1287	kmer	75.78	needleman	1	263	627	889	263	0	0	0	96.19
+asv420_Halamphora	288	KT943669|rbcl	1159	kmer	81.13	needleman	1	288	613	900	288	0	0	0	96.52
+asv488_Bacillariophyceae	288	MG027494|rbcl	933	kmer	73.66	needleman	1	288	387	674	288	0	0	0	95.83
+asv494_Amphora	263	KC954577|rbcl	1288	kmer	78.12	needleman	1	263	628	890	263	0	0	0	95.43
+asv551_Halamphora	288	TCC477-Rbcl-1|rbcl	1288	kmer	74.73	needleman	1	288	613	900	288	0	0	0	96.18
+asv583_Halamphora	263	MG027494|rbcl	933	kmer	78.51	needleman	1	263	402	664	263	0	0	0	96.57
+asv996_Amphora_abludens	263	KJ463455|rbcl	1288	kmer	84.37	needleman	1	263	628	890	263	0	0	0	97.33
+asv51_Amphora_sulcata	263	KJ463476|rbcl	1288	kmer	93.35	needleman	1	263	628	890	263	0	0	0	99.23

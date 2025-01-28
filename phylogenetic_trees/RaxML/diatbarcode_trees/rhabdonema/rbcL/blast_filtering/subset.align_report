@@ -1,0 +1,5 @@
+QueryName	QueryLength	TemplateName	TemplateLength	SearchMethod	SearchScore	AlignmentMethod	QueryStart	QueryEnd	TemplateStart	TemplateEnd	PairwiseAlignmentLength	GapsInQuery	GapsInTemplate	LongestInsert	SimBtwnQuery&Template	
+asv225_Nitzschia	288	MN917216.1	1355	kmer	57.65	needleman	1	288	686	973	288	0	0	0	90.97
+asv228_Bacillariales	263	AB430682|rbcl	1353	kmer	46.09	needleman	1	263	699	961	263	0	0	0	90.11
+asv652_Gedaniella	263	OL457301.1	1348	kmer	53.51	needleman	1	263	695	957	263	0	0	0	88.97
+asv219_Fragilariophyceae	263	AB430682|rbcl	1353	kmer	63.28	needleman	1	263	699	961	263	0	0	0	94.29

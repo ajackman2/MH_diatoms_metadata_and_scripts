@@ -1,0 +1,29 @@
+S	0	1438	*	*	*	*	*	HQ912498.1 Grammatophora oceanica strain CCMP410 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+S	1	1428	*	*	*	*	*	AB430677.1 Grammatophora marina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, partial cds, strain: s0190	*
+S	2	1428	*	*	*	*	*	AB430682|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Rhabdonematales-Rhabdonemataceae-Rhabdonema-Rhabdonema minutum	*
+S	3	1394	*	*	*	*	*	MN917216.1 Ambo tenuissimus strain DK004 ribbS1 ribulose-1,5-bisphosphate carboxylase/oxygenase, large subunit -rbcL- gene, partial cds- plastid	*
+S	4	1355	*	*	*	*	*	MH040265.1 Microtabella interrupta strain 20X15-1 FL Microtab-1 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+S	5	1354	*	*	*	*	*	JX401261|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Rhabdonematales-Rhabdonemataceae-Rhabdonema-Rhabdonema adriaticum	*
+S	6	1352	*	*	*	*	*	JX401259.1 Grammatophora macilenta isolate GU44AK4Gramma ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+S	7	1351	*	*	*	*	*	JX401258.1 Grammatophora undulata isolate Coz3Gramma ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+S	8	1350	*	*	*	*	*	JX401260|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Rhabdonematales-Rhabdonemataceae-Rhabdonema-Rhabdonema adriaticum	*
+S	9	1348	*	*	*	*	*	OL457301.1 Ambo sp. ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+S	10	1341	*	*	*	*	*	MG684323.1 Grammatophora sp. isolate Nate Site 1 Grammatophora ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+S	11	1137	*	*	*	*	*	MN917215.1 Ambo gallaeciae strain SZCZCH1791 ribulose-1,5-bisphosphate carboxylase/oxygenase, large subunit -rbcL- gene, partial cds- plastid	*
+S	12	1134	*	*	*	*	*	JN975261.1 Microtabella interrupta ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+S	13	1124	*	*	*	*	*	MH064146.1 Grammatophora sp. strain KSA2015-16 Grammo-D8 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+H	1	646	99.5	+	0	0	25D621M807I	KJ671804.1 Grammatophora sp. B LG-2014 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit gene, partial cds- chloroplast	AB430677.1 Grammatophora marina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, partial cds, strain: s0190
+C	0	1	*	*	*	*	*	HQ912498.1 Grammatophora oceanica strain CCMP410 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+C	1	2	*	*	*	*	*	AB430677.1 Grammatophora marina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, partial cds, strain: s0190	*
+C	2	1	*	*	*	*	*	AB430682|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Rhabdonematales-Rhabdonemataceae-Rhabdonema-Rhabdonema minutum	*
+C	3	1	*	*	*	*	*	MN917216.1 Ambo tenuissimus strain DK004 ribbS1 ribulose-1,5-bisphosphate carboxylase/oxygenase, large subunit -rbcL- gene, partial cds- plastid	*
+C	4	1	*	*	*	*	*	MH040265.1 Microtabella interrupta strain 20X15-1 FL Microtab-1 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+C	5	1	*	*	*	*	*	JX401261|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Rhabdonematales-Rhabdonemataceae-Rhabdonema-Rhabdonema adriaticum	*
+C	6	1	*	*	*	*	*	JX401259.1 Grammatophora macilenta isolate GU44AK4Gramma ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+C	7	1	*	*	*	*	*	JX401258.1 Grammatophora undulata isolate Coz3Gramma ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+C	8	1	*	*	*	*	*	JX401260|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Rhabdonematales-Rhabdonemataceae-Rhabdonema-Rhabdonema adriaticum	*
+C	9	1	*	*	*	*	*	OL457301.1 Ambo sp. ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+C	10	1	*	*	*	*	*	MG684323.1 Grammatophora sp. isolate Nate Site 1 Grammatophora ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+C	11	1	*	*	*	*	*	MN917215.1 Ambo gallaeciae strain SZCZCH1791 ribulose-1,5-bisphosphate carboxylase/oxygenase, large subunit -rbcL- gene, partial cds- plastid	*
+C	12	1	*	*	*	*	*	JN975261.1 Microtabella interrupta ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*
+C	13	1	*	*	*	*	*	MH064146.1 Grammatophora sp. strain KSA2015-16 Grammo-D8 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit -rbcL- gene, partial cds- chloroplast	*

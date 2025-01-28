@@ -1,0 +1,12 @@
+QueryName	QueryLength	TemplateName	TemplateLength	SearchMethod	SearchScore	AlignmentMethod	QueryStart	QueryEnd	TemplateStart	TemplateEnd	PairwiseAlignmentLength	GapsInQuery	GapsInTemplate	LongestInsert	SimBtwnQuery&Template	
+asv231_Licmophora	182	AY633759|18S	1736	kmer	96.57	needleman	1	182	551	731	182	0	1	1	66.48
+asv339_Licmophora	200	AY633760|18S	1731	kmer	100.00	needleman	1	200	548	747	200	0	0	0	100.00
+asv157_Navicula	200	EF423412|18S	1769	kmer	67.35	needleman	1	200	576	776	202	2	1	1	82.58
+asv764_Bacillariophyceae	200	EF423412|18S	1769	kmer	64.24	needleman	1	200	576	776	201	1	0	0	86.56
+asv121_Tabularia	182	EF423417|18S	1766	kmer	85.71	needleman	1	182	574	754	182	0	1	1	69.23
+asv125_Tabularia	182	EF423417|18S	1766	kmer	82.85	needleman	1	182	574	754	182	0	1	1	68.68
+asv376_Tabularia	182	EF423417|18S	1766	kmer	85.71	needleman	1	182	574	754	182	0	1	1	69.78
+asv4_Tabularia	200	EF423417|18S	1766	kmer	91.19	needleman	1	200	574	772	200	0	1	1	72.00
+asv670_Tabularia	200	EF423417|18S	1766	kmer	81.34	needleman	1	200	574	772	200	0	1	1	71.00
+asv796_Tabularia	182	EF423417|18S	1766	kmer	73.71	needleman	1	182	574	756	184	2	1	1	66.84
+asv641_Bacillariophyceae	200	EF423417|18S	1766	kmer	70.98	needleman	1	200	574	777	204	4	0	0	87.74

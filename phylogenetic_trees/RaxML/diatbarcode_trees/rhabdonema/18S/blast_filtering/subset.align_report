@@ -1,0 +1,5 @@
+QueryName	QueryLength	TemplateName	TemplateLength	SearchMethod	SearchScore	AlignmentMethod	QueryStart	QueryEnd	TemplateStart	TemplateEnd	PairwiseAlignmentLength	GapsInQuery	GapsInTemplate	LongestInsert	SimBtwnQuery&Template	
+asv1094_Grammonema	182	JX401240.1	1766	kmer	62.85	needleman	1	182	572	754	183	1	0	0	91.80
+asv231_Licmophora	182	JX401242|18S	1772	kmer	66.85	needleman	1	182	578	759	182	0	0	0	87.91
+asv4_Tabularia	200	JX401243|18S	1786	kmer	65.28	needleman	1	200	579	778	201	1	1	1	82.00
+asv743_Bacillariophytina	182	JX401240.1	1766	kmer	46.28	needleman	1	182	582	766	186	4	1	1	77.41

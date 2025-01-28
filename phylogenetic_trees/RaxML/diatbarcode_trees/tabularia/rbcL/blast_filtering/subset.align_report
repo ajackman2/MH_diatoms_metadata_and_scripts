@@ -1,0 +1,3 @@
+QueryName	QueryLength	TemplateName	TemplateLength	SearchMethod	SearchScore	AlignmentMethod	QueryStart	QueryEnd	TemplateStart	TemplateEnd	PairwiseAlignmentLength	GapsInQuery	GapsInTemplate	LongestInsert	SimBtwnQuery&Template	
+asv92_Licmophora_paradoxa	288	HQ912476|rbcl	1358	kmer	97.15	needleman	1	288	686	973	288	0	0	0	99.65
+asv54_Tabularia_tabulata	263	JN162826|rbcl	540	kmer	84.37	needleman	1	222	319	540	222	0	0	0	100.00

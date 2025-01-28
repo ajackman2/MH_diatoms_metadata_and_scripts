@@ -1,0 +1,2 @@
+QueryName	QueryLength	TemplateName	TemplateLength	SearchMethod	SearchScore	AlignmentMethod	QueryStart	QueryEnd	TemplateStart	TemplateEnd	PairwiseAlignmentLength	GapsInQuery	GapsInTemplate	LongestInsert	SimBtwnQuery&Template	
+asv168_Cocconeis	288	MK454988|rbcl	1359	kmer	75.08	needleman	1	288	684	971	288	0	0	0	96.52

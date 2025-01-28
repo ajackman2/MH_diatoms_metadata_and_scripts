@@ -1,0 +1,8 @@
+QueryName	QueryLength	TemplateName	TemplateLength	SearchMethod	SearchScore	AlignmentMethod	QueryStart	QueryEnd	TemplateStart	TemplateEnd	PairwiseAlignmentLength	GapsInQuery	GapsInTemplate	LongestInsert	SimBtwnQuery&Template	
+asv157_Navicula_sp.	263	MK642523|rbcl	1311	kmer	71.09	needleman	1	263	654	916	263	0	0	0	93.53
+asv198_Nitzschia_laevis	263	MK642518|rbcl	1311	kmer	61.71	needleman	1	263	654	916	263	0	0	0	92.77
+asv254_Seminavis_robusta	263	MK642545|rbcl	1311	kmer	71.87	needleman	1	263	654	916	263	0	0	0	93.53
+asv544_Attheya_decora	263	KP400295|rbcl	956	kmer	74.21	needleman	1	263	654	916	263	0	0	0	95.05
+asv555_Navicula_reinhardtii	263	MK642545|rbcl	1311	kmer	67.96	needleman	1	263	654	916	263	0	0	0	94.29
+asv777_Bacillariophyceae	288	MK642561|rbcl	1311	kmer	66.90	needleman	1	288	639	926	288	0	0	0	94.09
+asv137_Navicula	288	MK642523|rbcl	1311	kmer	70.46	needleman	1	288	639	926	288	0	0	0	93.75

@@ -1,0 +1,76 @@
+S	0	1473	*	*	*	*	*	HQ912476|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora paradoxa	*
+S	1	1473	*	*	*	*	*	HQ912479|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Fragilariales-Fragilariaceae-Tabularia-Tabularia tabulata	*
+S	2	1428	*	*	*	*	*	AB430679|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora paradoxa	*
+S	3	1428	*	*	*	*	*	AB430690|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Fragilariales-Fragilariaceae-Tabularia-Tabularia laevis	*
+S	4	1377	*	*	*	*	*	KJ577897|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora normaniana	*
+S	5	1366	*	*	*	*	*	MH040264|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+S	6	1365	*	*	*	*	*	JX401256|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+S	7	1363	*	*	*	*	*	KR048217|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Fragilariales-Fragilariaceae-Tabularia-Tabularia sp.	*
+S	8	1359	*	*	*	*	*	MH040259|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+S	9	1358	*	*	*	*	*	KP125883|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora abbreviata	*
+S	10	1355	*	*	*	*	*	MH064147|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+S	11	1354	*	*	*	*	*	JX401255|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmosphenia-Licmosphenia peragallioides	*
+S	12	1353	*	*	*	*	*	MG684328|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+H	6	1353	100.0	+	0	0	3D1350M15I	MH040258|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	JX401256|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.
+S	13	1352	*	*	*	*	*	MH040257|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+S	14	1351	*	*	*	*	*	MG684329|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora colosalis	*
+S	15	1350	*	*	*	*	*	MG684341|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus alfageehii	*
+S	16	1348	*	*	*	*	*	MG684339|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus navarroensis	*
+S	17	1343	*	*	*	*	*	MH040260|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+H	15	1342	100.0	+	0	0	1342M8I	MG684340|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus alfageehii	MG684341|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus alfageehii
+S	18	1341	*	*	*	*	*	MK454983|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus sp.	*
+S	19	1337	*	*	*	*	*	MG684343|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus gracilis	*
+H	14	1335	99.6	+	0	0	1335M16I	JX401257|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora colosalis	MG684329|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora colosalis
+H	12	1331	99.8	+	0	0	D1330M23I	MG684330|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	MG684328|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.
+S	20	1328	*	*	*	*	*	MH040256|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora normaniana	*
+H	1	1153	99.8	+	0	0	89I1153M231I	FJ002156|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Fragilariales-Fragilariaceae-Tabularia-Tabularia tabulata	HQ912479|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Fragilariales-Fragilariaceae-Tabularia-Tabularia tabulata
+H	17	1131	99.0	+	0	0	1131M212I	MG684324|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	MH040260|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.
+S	21	1131	*	*	*	*	*	MH040262|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+S	22	1127	*	*	*	*	*	MG684321|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Divergita-Divergita cf. al-ghamdii	*
+S	23	1126	*	*	*	*	*	MG684322|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Divergita-Divergita toxoneides	*
+S	24	1126	*	*	*	*	*	MG684345|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus madanii	*
+H	24	1125	100.0	+	0	0	D1124M2I	MG684344|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus madanii	MG684345|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus madanii
+H	15	1124	99.9	+	0	0	D1123M227I	MG684342|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus alfageehii	MG684341|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus alfageehii
+S	25	1122	*	*	*	*	*	KP125879|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora ehrenbergii	*
+S	26	1122	*	*	*	*	*	MG684325|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+H	26	1122	99.2	+	0	0	2I1120M2D	MH040263|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	MG684325|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.
+S	27	1117	*	*	*	*	*	MH040261|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+S	28	1111	*	*	*	*	*	MG684327|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+H	14	1096	99.5	+	0	0	I1096M254I	KT321972|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora colosalis	MG684329|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora colosalis
+S	29	1082	*	*	*	*	*	MG684326|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+S	30	1043	*	*	*	*	*	KT321973|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora remulus	*
+S	31	540	*	*	*	*	*	JN162826|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Fragilariales-Fragilariaceae-Tabularia-Tabularia fasciculata	*
+S	32	540	*	*	*	*	*	JN162827|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Fragilariales-Fragilariaceae-Tabularia-Tabularia fasciculata	*
+C	0	1	*	*	*	*	*	HQ912476|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora paradoxa	*
+C	1	2	*	*	*	*	*	HQ912479|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Fragilariales-Fragilariaceae-Tabularia-Tabularia tabulata	*
+C	2	1	*	*	*	*	*	AB430679|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora paradoxa	*
+C	3	1	*	*	*	*	*	AB430690|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Fragilariales-Fragilariaceae-Tabularia-Tabularia laevis	*
+C	4	1	*	*	*	*	*	KJ577897|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora normaniana	*
+C	5	1	*	*	*	*	*	MH040264|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+C	6	2	*	*	*	*	*	JX401256|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+C	7	1	*	*	*	*	*	KR048217|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Fragilariales-Fragilariaceae-Tabularia-Tabularia sp.	*
+C	8	1	*	*	*	*	*	MH040259|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+C	9	1	*	*	*	*	*	KP125883|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora abbreviata	*
+C	10	1	*	*	*	*	*	MH064147|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+C	11	1	*	*	*	*	*	JX401255|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmosphenia-Licmosphenia peragallioides	*
+C	12	2	*	*	*	*	*	MG684328|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+C	13	1	*	*	*	*	*	MH040257|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+C	14	3	*	*	*	*	*	MG684329|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora colosalis	*
+C	15	3	*	*	*	*	*	MG684341|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus alfageehii	*
+C	16	1	*	*	*	*	*	MG684339|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus navarroensis	*
+C	17	2	*	*	*	*	*	MH040260|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+C	18	1	*	*	*	*	*	MK454983|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus sp.	*
+C	19	1	*	*	*	*	*	MG684343|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus gracilis	*
+C	20	1	*	*	*	*	*	MH040256|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora normaniana	*
+C	21	1	*	*	*	*	*	MH040262|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+C	22	1	*	*	*	*	*	MG684321|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Divergita-Divergita cf. al-ghamdii	*
+C	23	1	*	*	*	*	*	MG684322|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Divergita-Divergita toxoneides	*
+C	24	2	*	*	*	*	*	MG684345|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Ulnariaceae-Stricosus-Stricosus madanii	*
+C	25	1	*	*	*	*	*	KP125879|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora ehrenbergii	*
+C	26	2	*	*	*	*	*	MG684325|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+C	27	1	*	*	*	*	*	MH040261|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+C	28	1	*	*	*	*	*	MG684327|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+C	29	1	*	*	*	*	*	MG684326|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora sp.	*
+C	30	1	*	*	*	*	*	KT321973|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Licmophorales-Licmophoraceae-Licmophora-Licmophora remulus	*
+C	31	1	*	*	*	*	*	JN162826|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Fragilariales-Fragilariaceae-Tabularia-Tabularia fasciculata	*
+C	32	1	*	*	*	*	*	JN162827|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Fragilariales-Fragilariaceae-Tabularia-Tabularia fasciculata	*

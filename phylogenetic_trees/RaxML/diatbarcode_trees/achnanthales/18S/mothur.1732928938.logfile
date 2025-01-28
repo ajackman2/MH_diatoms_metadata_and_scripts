@@ -1,0 +1,56 @@
+Linux version
+
+Using ReadLine,Boost,HDF5,GSL
+mothur v.1.48.2
+Last updated: 11/4/24
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://forum.mothur.org
+
+Type 'quit()' to exit program
+
+[NOTE]: Setting random seed to 19760620.
+
+Interactive Mode
+
+
+
+mothur > align.seqs(candidate=/home/evan.morien/projects/parfrey/diatbarcode_trees/2024-11-06_MH_diatoms_18S_asv.fasta, template=achnanthales.tree_input.trimal.fasta)
+Unable to open /home/evan.morien/projects/parfrey/diatbarcode_trees/2024-11-06_MH_diatoms_18S_asv.fasta. Trying MOTHUR_FILES directory /home/evan.morien/programs/mothur/2024-11-06_MH_diatoms_18S_asv.fasta.
+Unable to open /home/evan.morien/programs/mothur/2024-11-06_MH_diatoms_18S_asv.fasta. Trying mothur's executable directory /home/evan.morien/programs/mothur/2024-11-06_MH_diatoms_18S_asv.fasta.
+Unable to open /home/evan.morien/programs/mothur/2024-11-06_MH_diatoms_18S_asv.fasta.
+Unable to open /home/evan.morien/projects/parfrey/diatbarcode_trees/2024-11-06_MH_diatoms_18S_asv.fasta
+
+Using 48 processors.
+[ERROR]: did not complete align.seqs.
+
+mothur > align.seqs(candidate=/home/evan.morien/projects/parfreylab/diatbarcode_trees/2024-11-06_MH_diatoms_18S_asv.fasta, template=achnanthales.tree_input.trimal.fasta)
+
+Using 48 processors.
+
+Reading in the achnanthales.tree_input.trimal.fasta template sequences...	DONE.
+It took 0 to read  25 sequences.
+
+Aligning sequences from /home/evan.morien/projects/parfreylab/diatbarcode_trees/2024-11-06_MH_diatoms_18S_asv.fasta ...
+It took 2 secs to align 164 sequences.
+
+
+It took 2 seconds to align 164 sequences.
+
+Output File Names: 
+/home/evan.morien/projects/parfreylab/diatbarcode_trees/2024-11-06_MH_diatoms_18S_asv.align
+/home/evan.morien/projects/parfreylab/diatbarcode_trees/2024-11-06_MH_diatoms_18S_asv.align_report
+

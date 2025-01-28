@@ -1,0 +1,4 @@
+QueryName	QueryLength	TemplateName	TemplateLength	SearchMethod	SearchScore	AlignmentMethod	QueryStart	QueryEnd	TemplateStart	TemplateEnd	PairwiseAlignmentLength	GapsInQuery	GapsInTemplate	LongestInsert	SimBtwnQuery&Template	
+asv515_Parlibellus_protracta	263	AM710492|rbcl	712	kmer	79.29	needleman	1	263	450	712	263	0	0	0	96.57
+asv548_Sternimirus_shandongensis	263	KT943662|rbcl	1258	kmer	77.73	needleman	1	263	699	961	263	0	0	0	96.57
+asv352_Parlibellus_protracta	288	AM710492|rbcl	712	kmer	76.15	needleman	1	278	435	712	278	0	0	0	96.76

@@ -1,0 +1,14 @@
+S	0	1787	*	*	*	*	*	AY216906.1 Grammatophora marina 18S ribosomal RNA gene, partial sequence	*
+S	1	1786	*	*	*	*	*	JX401243|18S_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Rhabdonematales-Rhabdonemataceae-Rhabdonema-Rhabdonema adriaticum	*
+H	0	1779	99.4	+	0	0	3I1072MD608MD97M7I	AB430600.1 Grammatophora marina gene for 18S rRNA, partial sequence, strain: s0190	AY216906.1 Grammatophora marina 18S ribosomal RNA gene, partial sequence
+S	2	1773	*	*	*	*	*	JX401242|18S_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Rhabdonematales-Rhabdonemataceae-Rhabdonema-Rhabdonema adriaticum	*
+S	3	1766	*	*	*	*	*	JX401240.1 Grammatophora undulata isolate Coz3Gramma 18S ribosomal RNA gene, partial sequence	*
+H	0	1733	99.9	+	0	0	14I1061MD608MD62M42I	HQ912634.1 Grammatophora oceanica strain CCMP410 18S small subunit ribosomal RNA gene, partial sequence	AY216906.1 Grammatophora marina 18S ribosomal RNA gene, partial sequence
+H	0	1649	99.9	+	0	0	59I1016MD608MD23M81I	AY485466.1 Grammatophora oceanica strain CCMP410 18S ribosomal RNA gene, partial sequence	AY216906.1 Grammatophora marina 18S ribosomal RNA gene, partial sequence
+S	4	1091	*	*	*	*	*	JX401241.1 Grammatophora macilenta isolate GU44AK4Gramma 18S ribosomal RNA gene, partial sequence	*
+H	0	697	99.6	+	0	0	414I661MD35M677I	KJ671696.1 Grammatophora sp. B LG-2014 18S ribosomal RNA gene, partial sequence	AY216906.1 Grammatophora marina 18S ribosomal RNA gene, partial sequence
+C	0	5	*	*	*	*	*	AY216906.1 Grammatophora marina 18S ribosomal RNA gene, partial sequence	*
+C	1	1	*	*	*	*	*	JX401243|18S_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Rhabdonematales-Rhabdonemataceae-Rhabdonema-Rhabdonema adriaticum	*
+C	2	1	*	*	*	*	*	JX401242|18S_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Fragilariophyceae-Rhabdonematales-Rhabdonemataceae-Rhabdonema-Rhabdonema adriaticum	*
+C	3	1	*	*	*	*	*	JX401240.1 Grammatophora undulata isolate Coz3Gramma 18S ribosomal RNA gene, partial sequence	*
+C	4	1	*	*	*	*	*	JX401241.1 Grammatophora macilenta isolate GU44AK4Gramma 18S ribosomal RNA gene, partial sequence	*

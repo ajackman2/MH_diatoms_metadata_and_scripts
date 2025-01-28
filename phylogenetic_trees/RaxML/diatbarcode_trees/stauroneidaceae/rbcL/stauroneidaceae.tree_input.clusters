@@ -1,0 +1,82 @@
+S	0	1473	*	*	*	*	*	HQ912443|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis acuta	*
+S	1	1473	*	*	*	*	*	HQ912445|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula cuspidata	*
+S	2	1446	*	*	*	*	*	UK752-rbcl|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis phoenicenteron	*
+S	3	1437	*	*	*	*	*	TCC637-Rbcl-1|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula subminuscula	*
+S	4	1431	*	*	*	*	*	MH231751|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis gracilis	*
+S	5	1422	*	*	*	*	*	LC335884|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula pseudocitrus	*
+H	3	1408	99.5	+	0	0	61D1326MD20M91I	TCC661-Rbcl-1|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula subminuscula	TCC637-Rbcl-1|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula subminuscula
+H	4	1398	100.0	+	0	0	3I1398M30I	MH231754|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis gracilis	MH231751|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis gracilis
+S	6	1355	*	*	*	*	*	MH064137|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	*
+S	7	1354	*	*	*	*	*	KT943606|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	*
+S	8	1354	*	*	*	*	*	MH064063|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Astartiella-Astartiella sp.	*
+S	9	1350	*	*	*	*	*	TCC572-Rbcl-1|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula molestiformis	*
+S	10	1293	*	*	*	*	*	MH231753|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis subgracilis	*
+H	4	1263	99.9	+	0	0	54I1263M114I	MH231750|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis cf. gracilis	MH231751|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis gracilis
+S	11	1261	*	*	*	*	*	KT943662|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Sternimirus-Sternimirus shandongensis	*
+S	12	1216	*	*	*	*	*	KT943609|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	*
+S	13	1212	*	*	*	*	*	KT943613|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Astartiella-Astartiella sp.	*
+S	14	1124	*	*	*	*	*	MH064138|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis sp.	*
+H	7	1115	99.5	+	0	0	12D1103M251I	KT943607|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	KT943606|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.
+H	4	1092	100.0	+	0	0	1092M339I	MH231752|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis heinii	MH231751|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis gracilis
+S	15	1088	*	*	*	*	*	KT943610|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	*
+H	7	1078	100.0	+	0	0	21D1057M297I	KT943608|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	KT943606|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.
+H	7	1077	100.0	+	0	0	21D1056M298I	KT943603|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	KT943606|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.
+H	7	1061	100.0	+	0	0	21D1040M314I	KT943605|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	KT943606|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.
+S	16	999	*	*	*	*	*	KT943604|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	*
+H	1	987	99.5	+	0	0	48I987M438I	MH231744|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula ambigua	HQ912445|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula cuspidata
+S	17	980	*	*	*	*	*	KM084947|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula buderi	*
+S	18	980	*	*	*	*	*	KM084967|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis schmidiae	*
+H	18	980	100.0	+	0	0	=	KM084970|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis schmidiae	KM084967|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis schmidiae
+H	1	980	99.1	+	0	0	57I980M436I	KM084985|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula cuspidata	HQ912445|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula cuspidata
+H	2	980	100.0	+	0	0	57I980M409I	KM084992|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis phoenicenteron	UK752-rbcl|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis phoenicenteron
+S	19	854	*	*	*	*	*	TCC459-Rbcl-1|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula molestiformis	*
+S	20	809	*	*	*	*	*	TCC107-Rbcl-1|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula accomoda	*
+S	21	771	*	*	*	*	*	MH231747|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Dorofeyukea-Dorofeyukea indokotschyi	*
+S	22	771	*	*	*	*	*	MH231748|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Dorofeyukea-Dorofeyukea kotschyi	*
+H	21	768	100.0	+	0	0	768M3I	MH231746|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Dorofeyukea-Dorofeyukea indokotschyi	MH231747|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Dorofeyukea-Dorofeyukea indokotschyi
+S	23	714	*	*	*	*	*	AM710456|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis kriegeri	*
+S	24	714	*	*	*	*	*	AM710475|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis anceps	*
+S	25	714	*	*	*	*	*	AM710492|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Prestauroneis-Prestauroneis integra	*
+H	19	713	99.4	+	0	0	207I647M66D	AM710443|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula molestiformis	TCC459-Rbcl-1|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula molestiformis
+S	26	713	*	*	*	*	*	AM710465|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula cuspidata	*
+H	26	713	99.0	+	0	0	713M	AM710467|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula cuspidata	AM710465|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula cuspidata
+S	27	712	*	*	*	*	*	AM710498|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis phoenicenteron	*
+S	28	712	*	*	*	*	*	AM710504|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis kriegeri	*
+S	29	711	*	*	*	*	*	AM710455|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula molestiformis	*
+H	26	699	99.3	+	0	0	133I580M119D	MH231745|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula cuspidata	AM710465|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula cuspidata
+S	30	698	*	*	*	*	*	AM710454|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis gracilior	*
+S	31	690	*	*	*	*	*	AM710444|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula importuna	*
+H	28	641	100.0	+	0	0	31I641M40I	AM710505|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis kriegeri	AM710504|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis kriegeri
+H	2	640	99.7	+	0	0	324I640M482I	AM710453|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis phoenicenteron	UK752-rbcl|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis phoenicenteron
+C	0	1	*	*	*	*	*	HQ912443|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis acuta	*
+C	1	3	*	*	*	*	*	HQ912445|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula cuspidata	*
+C	2	3	*	*	*	*	*	UK752-rbcl|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis phoenicenteron	*
+C	3	2	*	*	*	*	*	TCC637-Rbcl-1|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula subminuscula	*
+C	4	4	*	*	*	*	*	MH231751|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis gracilis	*
+C	5	1	*	*	*	*	*	LC335884|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula pseudocitrus	*
+C	6	1	*	*	*	*	*	MH064137|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	*
+C	7	5	*	*	*	*	*	KT943606|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	*
+C	8	1	*	*	*	*	*	MH064063|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Astartiella-Astartiella sp.	*
+C	9	1	*	*	*	*	*	TCC572-Rbcl-1|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula molestiformis	*
+C	10	1	*	*	*	*	*	MH231753|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis subgracilis	*
+C	11	1	*	*	*	*	*	KT943662|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Sternimirus-Sternimirus shandongensis	*
+C	12	1	*	*	*	*	*	KT943609|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	*
+C	13	1	*	*	*	*	*	KT943613|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Astartiella-Astartiella sp.	*
+C	14	1	*	*	*	*	*	MH064138|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis sp.	*
+C	15	1	*	*	*	*	*	KT943610|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	*
+C	16	1	*	*	*	*	*	KT943604|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Schizostauron-Schizostauron sp.	*
+C	17	1	*	*	*	*	*	KM084947|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula buderi	*
+C	18	2	*	*	*	*	*	KM084967|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis schmidiae	*
+C	19	2	*	*	*	*	*	TCC459-Rbcl-1|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula molestiformis	*
+C	20	1	*	*	*	*	*	TCC107-Rbcl-1|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula accomoda	*
+C	21	2	*	*	*	*	*	MH231747|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Dorofeyukea-Dorofeyukea indokotschyi	*
+C	22	1	*	*	*	*	*	MH231748|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Dorofeyukea-Dorofeyukea kotschyi	*
+C	23	1	*	*	*	*	*	AM710456|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis kriegeri	*
+C	24	1	*	*	*	*	*	AM710475|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis anceps	*
+C	25	1	*	*	*	*	*	AM710492|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Prestauroneis-Prestauroneis integra	*
+C	26	3	*	*	*	*	*	AM710465|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula cuspidata	*
+C	27	1	*	*	*	*	*	AM710498|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis phoenicenteron	*
+C	28	2	*	*	*	*	*	AM710504|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis kriegeri	*
+C	29	1	*	*	*	*	*	AM710455|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula molestiformis	*
+C	30	1	*	*	*	*	*	AM710454|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Stauroneis-Stauroneis gracilior	*
+C	31	1	*	*	*	*	*	AM710444|rbcl_Eukaryota-Chromista-Chromobiota-Bacillariophyta-Bacillariophyceae-Naviculales-Stauroneidaceae-Craticula-Craticula importuna	*

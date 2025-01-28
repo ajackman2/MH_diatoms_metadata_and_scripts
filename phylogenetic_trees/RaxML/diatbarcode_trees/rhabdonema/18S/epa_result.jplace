@@ -1,0 +1,33 @@
+{
+  "tree": "(JX401241.1:0.0076609779{0},(JX401240.1:0.0026472499{1},(JX401242|18S:0.0504194423{2},JX401243|18S:0.0181621650{3}):0.0522092566{4}):0.0035422894{5},AY216906.1:0.0036783115{6});",
+  "placements": 
+  [
+    {"p": [
+      [4, -531.8859153876, 0.9934583901, 0.0261046283, 0.1053605157]
+      ],
+    "n": ["asv1094_Grammonema"]
+    },
+    {"p": [
+      [6, -609.5433542446, 0.2390641149, 0.0000500000, 0.2668309320],
+      [0, -609.6567274454, 0.2134406009, 0.0000500000, 0.2661687714],
+      [4, -609.8256596695, 0.1802647050, 0.0522042566, 0.2685186279],
+      [1, -609.8275126199, 0.1799309927, 0.0026422499, 0.2685473099],
+      [5, -609.8379711883, 0.1780589785, 0.0000500000, 0.2685728846]
+      ],
+    "n": ["asv743_Bacillariophytina"]
+    },
+    {"p": [
+      [4, -530.2939657351, 0.9988129828, 0.0261046283, 0.1053605157]
+      ],
+    "n": ["asv231_Licmophora"]
+    },
+    {"p": [
+      [4, -586.8374775577, 0.9806412614, 0.0261046283, 0.1053605157]
+      ],
+    "n": ["asv4_Tabularia"]
+    }
+  ],
+  "metadata": {"invocation": "/home/evan.morien/programs/epa-ng/bin/epa-ng --ref-msa rhabdonema.tree_input.trimal.fasta --tree /home/evan.morien/projects/parfreylab/diatbarcode_trees/rhabdonema/18S/RAxML_bestTree.rhabdonema.tree_input --query blast_filtering/subset.align --model GTR+G --redo "},
+  "version": 3,
+  "fields": ["edge_num", "likelihood", "like_weight_ratio", "distal_length", "pendant_length"]
+}
