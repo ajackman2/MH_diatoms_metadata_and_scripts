@@ -1,0 +1,51 @@
+Mac version
+
+Using ReadLine,Boost,HDF5,GSL
+mothur v.1.48.1
+Last updated: 5/15/24
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://forum.mothur.org
+
+Type 'quit()' to exit program
+
+[NOTE]: Setting random seed to 19760620.
+
+Interactive Mode
+
+
+
+mothur > align.seqs(candidate=blast_filtering/subset.fasta, template=navicuales.tree_input.trimal.fasta)
+
+Using 16 processors.
+
+Reading in the navicuales.tree_input.trimal.fasta template sequences...	DONE.
+It took 0 to read  95 sequences.
+
+Aligning sequences from blast_filtering/subset.fasta ...
+It took 1 secs to align 32 sequences.
+
+
+It took 1 seconds to align 32 sequences.
+
+Output File Names: 
+blast_filtering/subset.align
+blast_filtering/subset.align_report
+
+
+mothur > quit
+Logfile : mothur.1738237222.logfile
+
