@@ -1,4 +1,4 @@
-# look at the blast overlap
+# look at the overlap between datasets
 
 # libraries
 library(dplyr)
@@ -95,12 +95,13 @@ mol$inRBCL = ifelse(mol$Genus %in% c(inRBCL), "yes", "no")
 
 # remove the genera that we are not confident are there
 
-in_one <- c('ASteromphalus', 'Coscinodiscus', 'Dimeregramma', 'Ditylum', 'Ellerbeckia', 'Entomoneis', 'Fragilariopsis', 'Fragilaria', 
+in_one <- c('Asteromphalus', 'Coscinodiscus', 'Dimeregramma', 'Ditylum', 'Ellerbeckia', 'Entomoneis', 'Fragilaria', 
             'Gomphonemopsis', 'Grammatophora', 'Leptocylindrus', 'Lyrella', 'Paralia', 'Plagiogramma',
             'Psammodictyon', 'Pseudo-nitzschia', 'Rhizosolenia', 'Trachyneis', 'Opephora', 'Fogedia')
 
 mol$one_sample <- NA
 mol <- mol %>%
+  filter(Genus != 'Fragilariopsis') |>
   mutate(one_sample = ifelse(Genus %in% in_one, "yes", "no"))
 
 ###### combine data #####
@@ -159,30 +160,8 @@ filtered_data$n.sem.samples = as.numeric(filtered_data$n.sem.samples)
 plot_data <- bind_rows(filtered_data, new_values)
 
 
-# fix Asteromphalus
-plot_data <- plot_data |>
-  mutate(in_counts = ifelse(Genus == 'Asteromphalus', 'excluded', in_counts))
-
 plot_data <- plot_data |>
   filter(Genus != 'Paribellus')
-
-# add new genera
-new_values <- tibble(
-  Genus = "Asteromphalus",
-  sum.mol.ra = 4.822754e-03,
-  mean.mol.ra =1.121571e-04,
-  n.mol.samples = 43,
-  in18S = 'no',
-  inRBCL = 'yes',
-  one_sample = 'yes',
-  sum.sem.counts = 0,
-  n.sem.samples = 17,
-  mean.sem.count = 0,
-  in_counts = 'excluded'
-  
-)
-
-plot_data <- bind_rows(plot_data, new_values)
 
 new_values <- tibble(
   Genus = "Eunotia",
@@ -222,10 +201,15 @@ new_values <- tibble(
 plot_data <- bind_rows(plot_data, new_values)
 
 
-#write.csv(plot_data, "counting_data/mol_morph_overlap_blast_updated.csv")
+#write.csv(plot_data, "molecular_data/mol_morph_overlap_blast_updated.csv")
 
 # include Mark's data
 library(VennDiagram)
+
+plot_data <- plot_data %>%
+  filter(!(Genus %in% c('Achnanthales', 'Bacillariales', 'Bacillariophyceae', 'Bacillariophytina', 'Bacillariophyta', 'Coscinodiscophytina', 
+                        'Coscinodiscophyceae', 'Cymbellales', 'Diatomea', 'Fragilariales', 'Fragilariophyceae', 'Mediophyceae',
+                        'Melosirids', 'Naviculales', 'Thalassiophysales', 'Thalassiosirales', 'Ochrophyta', 'Stauroneidaceae', 'Surirellales', 'Chaetocerotales', 'Cocconeis_sister')))
 
 ven_data2 <- plot_data
 ven_data2$in18S <- ifelse(is.na(ven_data2$in18S), "no", ven_data2$in18S)
@@ -275,7 +259,7 @@ venn.plot2 <- venn.diagram(
   filename = NULL
 )
 
-#grid.draw(venn.plot2)
+grid.draw(venn.plot2)
 
 #### Abundance plot ####
 # make a new dataframe and remove higher level classifications
@@ -581,7 +565,7 @@ scatter_plot3 <- ggplot(plot_data, aes(x = sem_ra_rank, y = mol_ra_rank, color =
   geom_point(data = plot_data[plot_data$sum.mol.ra == 0 | plot_data$sem.ra == 0 | plot_data$where_found == 'in_one' | plot_data$where_found == 'in_marks',], size = 2.5, position = position_jitter(width = 0.5, height = 0.5)) +
   labs(x = "Morphological Rank", y = "Molecular Rank") +
   annotate("text", x = min(plot_data$sem_ra_rank) +5, y = max(plot_data$mol_ra_rank)-10,
-           label = paste("p-value: 0.16", "\nR-squared: 0.07"),
+           label = paste("p-value: 0.44", "\nR-squared: -0.02"),
            hjust = 1, vjust = 1, size = 4) +
   scale_color_manual(labels = c("Both",  "Morphological survey only", "Molecular only", "Morphological census only", "One Sample or Low Abundance"),
                      values = c('#46295d', '#edc6c5','#82bac4', '#e37c78','#966c8b')) +
@@ -595,7 +579,7 @@ summary(lm) # 0.04
 scatter_plot4 <- ggplot(plot_data, aes(x = sem_ra_rank, y = mol_ra_rank, color = where_found)) +
   geom_point(data = filtered_plot_data, size = 2.5) +
   geom_smooth(data = filtered_plot_data, method = 'lm') +
-  geom_point(data = plot_data[plot_data$sum.mol.ra == 0 | plot_data$sem.ra == 0 | plot_data$where_found == 'in_one' | plot_data$where_found == 'in_marks',], size = 2.5) +
+  geom_point(data = plot_data[plot_data$sum.mol.ra == 0 | plot_data$sem.ra == 0 | plot_data$where_found == 'in_one' | plot_data$where_found == 'in_marks',], size = 2.5, position = position_jitter(width = 0.5, height = 0.5)) +
   labs(x = "Morphological Rank", y = "Molecular Rank") +
   annotate("text", x = min(plot_data$sem_ra_rank) +5, y = max(plot_data$mol_ra_rank)-1,
            label = paste("p-value: 0.04", "\ny = 0.64x + 5.58"),
@@ -792,6 +776,9 @@ plot_data$mol_ra_rank <- ifelse(plot_data$n.mol.samples == 0, 0, rank(-plot_data
 filtered_plot_data <- plot_data |>
   filter(where_found == "in_both" & sum.sem.counts > 0)
 
+lm <- lm(mean.mol.ra ~ sem.ra, data = filtered_plot_data)
+summary(lm) # 0.04
+
 # redefine the basline
 plot_data$mol_ra_rank[is.na(plot_data$mol_ra_rank) | plot_data$mol_ra_rank == 0] <- 40
 plot_data$sem_ra_rank[is.na(plot_data$sem_ra_rank) | plot_data$sem_ra_rank == 0] <- 32
@@ -803,7 +790,7 @@ scatter_plot5 <- ggplot(plot_data, aes(x = sem_ra_rank, y = mol_ra_rank, color =
   geom_point(data = plot_data[plot_data$sum.mol.ra == 0 | plot_data$sem.ra == 0 | plot_data$where_found == 'in_one' | plot_data$where_found == 'in_marks',], size = 2.5, position = position_jitter(width = 0.5, height = 0.5)) +
   labs(x = "Morphological Rank", y = "Molecular Rank") +
   annotate("text", x = min(plot_data$sem_ra_rank) +5, y = max(plot_data$mol_ra_rank)-10,
-           label = paste("p-value: 0.002", "\nR-squared: 0.43"),
+           label = paste("p-value: 0.05", "\nR-squared: 0.23"),
            hjust = 1, vjust = 1, size = 4) +
   scale_color_manual(labels = c("Both",  "Morphological survey only", "Molecular only", "Morphological census only", "One Sample or Low Abundance"),
                      values = c('#46295d', '#edc6c5','#82bac4', '#e37c78','#966c8b')) +
@@ -817,7 +804,7 @@ summary(lm) # 0.04
 scatter_plot6 <- ggplot(plot_data, aes(x = sem_ra_rank, y = mol_ra_rank, color = where_found)) +
   geom_point(data = filtered_plot_data, size = 2.5) +
   geom_smooth(data = filtered_plot_data, method = 'lm') +
-  geom_point(data = plot_data[plot_data$sum.mol.ra == 0 | plot_data$sem.ra == 0 | plot_data$where_found == 'in_one' | plot_data$where_found == 'in_marks',], size = 2.5) +
+  geom_point(data = plot_data[plot_data$sum.mol.ra == 0 | plot_data$sem.ra == 0 | plot_data$where_found == 'in_one' | plot_data$where_found == 'in_marks',], size = 2.5, position = position_jitter(width = 0.5, height = 0.5)) +
   labs(x = "Morphological Rank", y = "Molecular Rank") +
   annotate("text", x = min(plot_data$sem_ra_rank) +5, y = max(plot_data$mol_ra_rank)-1,
            label = paste("p-value: 0.04", "\ny = 0.64x + 5.58"),
@@ -833,3 +820,4 @@ scatter_plot6
 ggarrange(scatter_plot5, scatter_plot3, labels = c("A", "B"), ncol = 2)
 
 ggarrange(scatter_plot6, scatter_plot4, labels = c("A", "B"), ncol = 2)
+

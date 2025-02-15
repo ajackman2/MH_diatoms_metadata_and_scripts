@@ -55,7 +55,7 @@ dephyloseq = function(phylo_obj){
 
 setwd("/Users/andreajackman/R_Stuff/Parfrey/MH_diatoms_metadata_and_scripts")
 
-# read in the data
+# read in the data - unfiltered
 diatom_data <- read.csv("morphological_data/master_diatom_data.csv")
 mol_18S = readRDS("molecular_data/MH_18S_phyloseq.rds")
 mol_RBCL = readRDS("molecular_data/MH_RBCL_phyloseq.rds")
@@ -95,8 +95,8 @@ mol_RBCL = dephyloseq(mol_RBCL)
 mol_18S = dephyloseq(mol_18S) 
 
 # read in the files with the new phylogenetic tree and blast results
-blast_18S <- read.csv("output/diatoms_in_18S_data.csv")
-blast_rbcl <- read.csv("output/diatoms_in_rbcl_data_2.csv")
+blast_18S <- read.csv("phylogenetic_trees/Seaview/diatoms_in_18S_data.csv")
+blast_rbcl <- read.csv("phylogenetic_trees/Seaview/diatoms_in_rbcl_data.csv")
 
 #### RBCL data ####
 # reassign the genera
@@ -136,5 +136,72 @@ for (i in 1:nrow(mol_18S)){
 }
 
 # save the new dataframes
-write.csv(mol_18S, "counting_data/tree_corrected_mol_18S")
-write.csv(mol_RBCL, "counting_data/tree_corrected_mol_RBCL")
+write.csv(mol_18S, "molecular_data/tree_corrected_mol_18S")
+write.csv(mol_RBCL, "molecular_data/tree_corrected_mol_RBCL")
+
+#### Filtered Data ####
+# read in the data - filtered
+mol_18S <- readRDS("molecular_data/MH_18S_filtered001percent_notrarefied_phyloseq.rds")
+mol_RBCL <- readRDS("molecular_data/MH_RBCL_filtered001percent_notrarefied_phyloseq.rds")
+
+mol_RBCL@sam_data$rd_filt = sample_sums(mol_RBCL)
+mol_18S@sam_data$rd_filt = sample_sums(mol_18S)
+
+## remove non-diatoms
+mol_RBCL = subset_taxa(mol_RBCL, Phylum !="Eukaryota" &
+                         Kingdom!="Sar") #Heterosigma akashiwo chloroplast DNA by BLAST
+
+mol_18S = subset_taxa(mol_18S, phylum %in% c("Ochrophyta") &
+                        !(class %in% c("Chrysophyceae", "Ochrophyta", "Phaeophyceae", "Pelagophyceae", "Raphidophyceae")))
+
+## get out of phyloseq
+mol_RBCL = dephyloseq(mol_RBCL)
+mol_18S = dephyloseq(mol_18S) 
+
+# read in the files with the new phylogenetic tree and blast results
+blast_18S <- read.csv("phylogenetic_trees/Seaview/diatoms_in_18S_data.csv")
+blast_rbcl <- read.csv("phylogenetic_trees/Seaview/diatoms_in_rbcl_data.csv")
+
+#### RBCL data ####
+# reassign the genera
+merged_data <- merge(mol_RBCL,blast_rbcl, by = "asv_id", suffixes = c("_mol", "_blast"))
+merged_data$Genus_mol <- merged_data$tree_corrected
+merged_data$Order_mol <- merged_data$tree_order
+merged_data <- merged_data |>
+  select(asv_id:subsp_mol)
+
+# edit mol_RBCL
+for (i in 1:nrow(mol_RBCL)){
+  for (j in 1:nrow(merged_data)){
+    if (mol_RBCL$asv_id[i] == merged_data$asv_id[j]) {
+      mol_RBCL$Genus[i] <- merged_data$Genus_mol[j]
+      mol_RBCL$Order[i] <- merged_data$Order_mol[j]
+    }
+  }
+}
+
+write.csv(mol_RBCL, "molecular_data/tree_corrected_filtered_mol_RBCL")
+
+#### 18S data ####
+# reassign the genera
+merged_data2 <- merge(mol_18S, blast_18S, by = "asv_id", suffixes = c("_mol", "_blast"))
+merged_data2$genus_mol <- merged_data2$tree_corrected
+merged_data2$order_mol <- merged_data2$tree_order
+merged_data2 <- merged_data2 |>
+  select(asv_id:genus_mol)
+
+
+# edit mol_18S
+for (i in 1:nrow(mol_18S)){
+  for (j in 1:nrow(merged_data2)){
+    if (mol_18S$asv_id[i] == merged_data2$asv_id[j]) {
+      mol_18S$genus[i] <- merged_data2$genus_mol[j]
+      mol_18S$order[i] <- merged_data2$order_mol[j]
+    }
+  }
+}
+
+# save the dataframes
+write.csv(mol_18S, "molecular_data/tree_corrected_filtered_mol_18S")
+
+

@@ -34,7 +34,7 @@ counts_position_long <- diatom_data |>
   select(file_name, box, blade_position, NaviculalesNavicula:Undatella) |>
   group_by(box, blade_position) |>
   summarise_at(vars(NaviculalesNavicula:Undatella), ~sum(., na.rm = TRUE)) |>
-  pivot_longer(cols = NaviculalesNavicula:Undatella, names_to = "genus", values_to = "sum")
+  pivot_longer(cols =NaviculalesNavicula:Undatella, names_to = "genus", values_to = "sum")
 #View(counts_position_long)
 
 ##### LOOP TO SELECT TOP 15 GENERA IN SAMPLES ######
@@ -76,6 +76,11 @@ ggplot(data, aes(x = box, y = relative_proportion, fill = genus)) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
   coord_cartesian(ylim = c(0, 1))
+
+data <- data |>
+  filter(box != 'box_0_2_1')
+
+
 
 seagrassdf = data
 
@@ -160,6 +165,7 @@ plot.order = unlist(plot.order)
 ## order dataframe by relative abundance
 alldata1$plotnames = factor(alldata1$plotnames, levels=c(plot.order))
 
+
 alldata1<- alldata1 %>%
   mutate(blade_position = dplyr::recode(blade_position, "proximal" = "Base", "distal" = "Tip", "medial" = "Middle"))
 
@@ -177,7 +183,7 @@ myplot=ggplot(alldata1, aes(x = as.character(box), y=as.numeric(relative_proport
 myplot
 
 #### molecular taxa plot ####
-mol_18S <- read.csv("molecular_data/tree_corrected_mol_18S")
+mol_18S <- read.csv("molecular_data/tree_corrected_filtered_mol_18S")
 
 # filter mol_18S for the diatoms
 mol_18S <- mol_18S |>
@@ -204,7 +210,6 @@ seagrassdf <- seagrassdf |>
   select(-asv_id)
 
 seagrassdf <- na.omit(seagrassdf)
-
 ## get per sample relative abundance
 sum_per_sample <- aggregate(asv_abundance ~ Row.names, data = seagrassdf, FUN = sum)
 
@@ -215,6 +220,9 @@ seagrassdf <- merge(seagrassdf, sum_per_sample, by.x = "Row.names", by.y = "Row.
 colnames(seagrassdf)[which(colnames(seagrassdf) == "asv_abundance_sum")] <- "rd_filt_new"
 
 seagrassdf$ra = as.numeric(seagrassdf$asv_abundance) / as.numeric(seagrassdf$rd_filt_new)
+
+seagrassdf <- seagrassdf %>%
+  mutate(Genus = ifelse(Genus == "Cocconeis_Sister", "CocconeisSisterGroup", Genus))
 
 ## make plotnames
 seagrassdf$plotnames = paste0(seagrassdf$Order,seagrassdf$Genus)
@@ -244,7 +252,7 @@ for(i in grouplist) {
     sample = subset(sorted, sorted$leaf_section %in% c(j))
     
     ## get top 15 genera
-    top = sample[c(1:13),]
+    top = sample[c(1:11),]
     
     ## save list of top  abundance taxa
     t.tmp <- top
@@ -273,7 +281,7 @@ colors
 ##### MAKE TAXAPLOT #####
 # Assign taxa names to colors
 scolors <- colors$plot_colors
-names(scolors) <- colors$genus
+names(scolors) <- colors$Genus
 
 
 ##### ORDER THE TAXA SO OTHERS ARE AT THE BOTTOM #####
@@ -305,12 +313,12 @@ alldata <- alldata %>%
 
 
 # Define the desired order
-desired_order <- c("AchnanthalesCocconeis", "FragilarialesTabularia", "NaviculalesNavicula", 
-                   "BacillarialesNitzschia", "BacillarialesCylindrotheca", 'AchnanthalesAchnanthales',
-                   "EupodiscalesOdontella", "NaviculalesStauroneidaceae",
-                   "AchnanthalesAchnanthidium", "AchnanthalesAchnanthes",
-                   "MelosiralesMelosira", 'NaviculalesPleurosigma', 'BacillariophyceaeBacillariophyceae',
-                   'DiatomeaDiatomea', "Others")
+desired_order <- c("AchnanthalesCocconeisSisterGroup", "NaviculalesNavicula", "FragilarialesTabularia",
+                   "AchnanthalesAchnanthales", "BacillariophyceaeBacillariophyceae", 'ThalassiosiralesThalassiosira',
+                   "BacillarialesNitzschia", "DiatomeaDiatomea",
+                   "MelosiralesMelosira", "AchnanthalesAchnanthidium",
+                   "ThalassiophysalesAmphora", 'EupodiscalesOdontella', 'BacillarialesCylindrotheca',
+                   'NaviculalesPleurosigma', "Others")
 
 # Sort the plot data frames
 alldata <- alldata %>%
@@ -323,7 +331,6 @@ alldata <- alldata %>%
 alldata <- alldata %>%
   mutate(plotnames = factor(plotnames, levels = desired_order)) %>%
   arrange(plotnames)
-
 
 ## make the plot
 mol_18S_plot <- ggplot(alldata, aes(x=as.character(Row.names), y=as.numeric(ra), 
@@ -338,19 +345,19 @@ mol_18S_plot <- ggplot(alldata, aes(x=as.character(Row.names), y=as.numeric(ra),
 mol_18S_plot
 
 #### RBCL taxaplot #####
-mol_RBCL <- read.csv("molecular_data/tree_corrected_mol_RBCL")
+mol_RBCL <- read.csv("molecular_data/tree_corrected_filtered_mol_RBCL")
 
 mol_RBCL <- mol_RBCL |>
   mutate(plant_id = as.character(leafnumber))
 mol_RBCL$database <- 'rbcL'
 
-inRBCL = c(unique(mol_RBCL$Genus))
+inRBCL = c(unique(mol_RBCL$genus))
 
 seagrassdf = mol_RBCL #full_join(mol_RBCL, mol_18S)
 
-seagrassdf <- seagrassdf |>
-  #select(-asv_id)
-  select(-Species, -subsp, -asv_id, -Domain, -Kingdom, -Subkingdom, -Phylum, -Class, -Empty)
+# seagrassdf <- seagrassdf |>
+#   #select(-asv_id)
+#   select(-Species, -subsp, -asv_id, -Domain, -Kingdom, -Subkingdom, -Phylum, -Class, -Empty)
 
 seagrassdf <- na.omit(seagrassdf)
 
@@ -393,7 +400,7 @@ for(i in grouplist) {
     sample = subset(sorted, sorted$leafsection %in% c(j))
     
     ## get top 15 genera
-    top = sample[c(1:13),]
+    top = sample[c(1:12),]
     
     ## save list of top  abundance taxa
     t.tmp <- top
@@ -422,7 +429,7 @@ colors
 ##### MAKE TAXAPLOT #####
 # Assign taxa names to colors
 scolors <- colors$plot_colors
-names(scolors) <- colors$genus
+names(scolors) <- colors$Genus
 
 
 ##### ORDER THE TAXA SO OTHERS ARE AT THE BOTTOM #####
@@ -452,11 +459,11 @@ alldata <- alldata %>%
 
 
 # Step 2: Define the desired order
-desired_order <- c( 'AchnanthalesCocconeis', 'FragilarialesTabularia', "NaviculalesNavicula", "BacillarialesNitzschia", "BacillarialesCylindrotheca", 
-                    "ThalassiosiralesMinidiscus", "NaviculalesPseudogomphonema", 
-                    'AchnanthalesAchnanthales', "ThalassiosiralesThalassiosirales", "ThalassiosiralesThalassiosira",
-                    "NaviculalesHaslea", "EupodiscalesOdontella",
-                    'NaviculalesPleurosigma', 'ThalassiophysalesAmphora',
+desired_order <- c( "NaviculalesNavicula","BacillariophyceaeBacillariophyceae", "BacillarialesNitzschia",           
+                    "NaviculalesPseudogomphonema","ThalassiosiralesThalassiosirales","AchnanthalesAchnanthales",         
+                    "ThalassiosiralesMinidiscus", "ThalassiosiralesThalassiosira", "BacillarialesCylindrotheca",        
+                    "NaviculalesNaviculales", "NaviculalesPleurosigma", "ThalassiophysalesAmphora",         
+                    "TriceratialesOdontella", "BacillarialesBacillariales", 
                     "Others")
 
 # Step 3: Sort the plot data frames
@@ -489,3 +496,4 @@ mol_RBCL_plot
 
 # final arrangement of taxaplots
 ggarrange(myplot, mol_18S_plot, mol_RBCL_plot, labels = c("A", "B", "C"), ncol = 3)
+
